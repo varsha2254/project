@@ -45,5 +45,4 @@ No external frameworks used — built from scratch to demonstrate core frontend 
 
 ---
 
-## 📂 Project Structure
 
