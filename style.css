@@ -1,3 +1,4 @@
+
 :root {
   --bg: #ffffff;
   --text: #111;
@@ -179,3 +180,18 @@ nav a:hover::after {
 @media (max-width: 768px) {
   nav { display: none; }
 }
+.hero-profile {
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid var(--accent);
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
